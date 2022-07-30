@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}{{title}}{% endblock %}
+
+{% block body %}
+<h1>Hello {{title}} page.</h1>
+<table>
+  <tbody>
+    <tr>
+      <th>Date</th>
+      <td>{{time}}</td>
+    </tr>
+  </tbody>
+</table>
+{% endblock %}
