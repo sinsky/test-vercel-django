@@ -20,7 +20,7 @@ class Test(TemplateView):
 
     def __init__(self):
         props = getNowTime()
-        props["title"] = "index"
+        props["title"] = "test"
         self.props = props
 
     def get(self, request, **kwargs):
